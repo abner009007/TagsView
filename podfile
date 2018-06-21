@@ -1,0 +1,14 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+# 项目中的target各自的设置
+target 'SideView' do
+
+# 共用的pod第三方
+
+pod 'Masonry'
+
+
+
+    
+end
