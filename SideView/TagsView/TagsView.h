@@ -25,6 +25,12 @@
 
 
 -(void)reloadTagsView:(NSArray *)array titleFont:(UIFont *)titleFont titleColor:(UIColor *)titleColor selectedColor:(UIColor *)selectedColor singleSelection:(BOOL)singleSelection currentTitle:(NSString *)currentTitle;
+
+
+-(void)reloadTagsView:(NSArray *)array titleFont:(UIFont *)titleFont titleColor:(UIColor *)titleColor titleSelectedColor:(UIColor *)titleSelectedColor backgroundColor:(UIColor *)backgroundColor backgroundSelectedColor:(UIColor *)backgroundSelectedColor singleSelection:(BOOL)singleSelection currentTitle:(NSString *)currentTitle;
+
+
+
 -(NSArray *)getChooseTags;
 -(void)resetTagsView;
 
